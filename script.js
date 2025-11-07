@@ -20,7 +20,7 @@ const db = getDatabase(app);
 /* ======= SETTINGS ======= */
 const SHEET_PATH = "sheets/1";
 const ROWS = 40;  // you can make this 190 if you want
-const COLS = 10;
+const COLS = 4;
 
 /* ======= BUILD THE GRID ======= */
 const table = document.getElementById("sheetTable");
